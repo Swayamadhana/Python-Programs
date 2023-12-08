@@ -1,0 +1,15 @@
+# lower se upper count ke beech mein jitne bhi prime honge voh print karne hai
+lowerlimit=int(input('enter the lower number'))
+upperlimit=int(input('enter the upper limit'))
+count=0
+num=2
+while(lowerlimit<upperlimit):
+    flag=True
+    for i in range(2,lowerlimit):
+        if(lowerlimit%i==0):
+            flag=False
+            break
+    if(flag==True):
+        print(lowerlimit)
+        count=count+1
+    lowerlimit=lowerlimit+1
