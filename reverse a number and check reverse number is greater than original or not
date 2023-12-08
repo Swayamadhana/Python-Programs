@@ -1,0 +1,14 @@
+# reverse a number and check reverse number is greater than original or not
+num=int(input('enter the number'))
+ori=num
+revnum=0
+while(num>0):
+    lastdigit=num%10
+    revnum=revnum*10+lastdigit
+    num=num//10
+print(revnum)
+print(ori)
+if(revnum>ori):
+    print('the rev is greater')
+else:
+    print('original is greater')
