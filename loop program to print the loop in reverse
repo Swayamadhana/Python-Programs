@@ -1,0 +1,5 @@
+# loop program to print the loop in reverse
+i=int(input('enter the value to which you want to print'))
+while(i>=1):
+    print(i)
+    i=i-1
