@@ -1,0 +1,11 @@
+# write a python function to find even and odd number 
+
+def oddeven(k):
+    if(k%2==0):
+        print('EVEN')
+    else:
+        print('ODD')
+    return 
+
+k=int(input('enter the number'))
+oddeven(k) 
