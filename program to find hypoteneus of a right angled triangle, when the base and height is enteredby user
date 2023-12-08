@@ -1,0 +1,5 @@
+#program to find hypoteneus of a right angled triangle, when the base and height is enteredby user
+base=int(input('enter the base of your triangle'))
+height=int(input('enter the height of your triangle'))
+hypoteneous=(base**2+height**2)**(1/2)
+print('hypoteneous of the triangle is, ', hypoteneous)
