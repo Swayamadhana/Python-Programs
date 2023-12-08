@@ -1,0 +1,9 @@
+# Jaise hi cumilative sum Negative ho
+cum_sum=0
+while(True):
+    x=int(input(''))
+    cum_sum=cum_sum+x
+    if(cum_sum>=0):
+        print(x)
+    else:
+        break
