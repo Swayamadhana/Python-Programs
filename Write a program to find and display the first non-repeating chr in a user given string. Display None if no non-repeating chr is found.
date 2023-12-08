@@ -1,0 +1,12 @@
+# Write a program to find and display the first non-repeating chr in a user given string. Display None if no non-repeating chr is found.
+
+# Meathod 1 (flag and loop)
+a=input()
+flag=True
+for i in a:
+    if a.count(i)==1:
+        print(i)
+        flag=False
+        break
+if(flag==True):
+    print('None')
