@@ -1,0 +1,7 @@
+# program to find perimetre and area of rectangle taking side and length from user
+a=int(input('enter the length '))
+b=int(input('enter the breadth'))
+c=a*b
+print('the area of rectangle is,',c)
+d=2*(a+b)
+print('the perimetre of rectangle is,',d)
