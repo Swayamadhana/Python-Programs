@@ -1,0 +1,13 @@
+# take a list from user and rotate the array in clockwise direction one time
+#input- [1,2,3,4,5]
+#output- [5,1,2,3,4]
+
+l=list(map(int,input().split()))
+n=len(l)
+temp=l[n-1]
+i=n-2
+while i>=0:
+    l[i+1]=l[i]
+    i=i-1
+l[0]=temp
+print(l)
