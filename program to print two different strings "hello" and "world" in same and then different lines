@@ -1,0 +1,13 @@
+# program to print two different strings "hello" and "world" in same and then different lines
+# for printing in same line
+
+a=input('enter any word you want')
+b=input('enter any other word')
+print(a)
+print(b)
+
+# for printing them in same line
+
+A=input('enter any word')
+B=input('enter any other wod')
+print(A,B, end='')
