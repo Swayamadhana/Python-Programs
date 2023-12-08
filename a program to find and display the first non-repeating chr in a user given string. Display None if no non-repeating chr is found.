@@ -1,0 +1,17 @@
+# Write a program to find and display the first non-repeating chr in a user given string. Display None if no non-repeating chr is found.
+# Meathod 2 (dictionary)
+st=input()
+d={}
+for i in st:
+    if i in d:
+        d[i]=d[i]+1
+    else:
+        d[i]=1
+flag=True
+for i in st:
+    if d[i]==1:
+        print(i)
+        flag=False
+        break
+if (flag==True):
+    print('None')
