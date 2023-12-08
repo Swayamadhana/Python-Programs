@@ -1,0 +1,11 @@
+# print all the prime number between x and y using fucntion
+
+def prime(p):
+    count=0
+    for i in range(1,p+1):
+        if(p%i==0):
+            count=count+1
+    return count==2
+
+p=int(input(''))
+print(prime(p))  
