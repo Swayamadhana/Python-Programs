@@ -1,0 +1,19 @@
+#water tank problem
+
+h=10
+r=5
+F=15
+t=eval(input('enter the time'))
+vtank=3.14*r**2*h
+vwater=F*t
+if(vwater==vtank):
+    print('tank full')
+elif(vtank>vwater):
+    print('underflow condition')
+    ht=vwater/(3.14*r**2)
+    hr=h-ht
+    print('filled height',ht)
+    print('remaining height',hr)
+else:
+    print('overflow condition')
+    print('volume',vwater-vtank)
