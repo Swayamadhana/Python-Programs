@@ -1,0 +1,12 @@
+# take an input from the user find average and product
+n=int(input('enter how many numbers you want to calculate'))
+sum1=0
+prod=1
+for i in range(1,n+1):
+    x=int(input('enter the values you want to enter'))
+    print(x)
+    sum1=sum1+x
+    prod=prod*x
+avg=sum1/n
+print('the average of number is',avg)
+print('the product of number is',prod)
