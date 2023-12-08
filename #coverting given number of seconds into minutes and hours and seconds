@@ -1,0 +1,9 @@
+#coverting given number of seconds into minutes and hours and seconds
+
+sec=int(input('enter the number of seconds'))
+min=sec//60
+hours=min//60
+remsec=sec%60
+print('number of minutes',min)
+print('number of hours',hours)
+print('remaining seconds',remsec)
