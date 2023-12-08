@@ -1,0 +1,14 @@
+def optional_sum_multiply(*obj,op='Add'):
+    if op=='Add':
+        s=0
+        for i in obj:
+            s+=i
+        return s
+    elif op=='multiply':   
+        s=1
+        for i in obj:
+            s*=i
+        return s
+    
+out=optional_sum_multiply(2,5,6,7,8 ,op='Add')
+print(out)
