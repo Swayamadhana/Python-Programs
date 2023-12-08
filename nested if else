@@ -1,0 +1,14 @@
+#nested if else
+
+A=int(input('classes held'))
+B=int(input('classes attended'))
+c=B/A*100
+D=input("do you have a medical reason?")
+if(c>=75):
+    print('you are allowed in test')
+else:
+    if(D=="yes"):
+        print('you are allowed in exam')
+    else:
+        print('you are not allowed')
+print(c)
