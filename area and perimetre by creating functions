@@ -1,0 +1,13 @@
+# area and perimetre by creating functions
+
+def Area_of_rect ( l,b):
+    return 1* b 
+def Peri_of_rect ( l,b):
+    return 2*(l+b)
+
+length=int(input(''))
+bredth=int(input(''))
+area = Area_of_rect(length,bredth)
+perimeter = Peri_of_rect(length,bredth) 
+print(f'Area {area}')
+print(f'perimeter {perimeter}')
