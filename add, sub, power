@@ -1,0 +1,17 @@
+#program to enter and add any two integer value
+a=int(input('enter your first no'))
+b=int(input('enter your second no'))
+c=a+b
+print(c)
+
+#program to subtract two different values
+A=int(input('enter first number'))
+B=int(input('enter second number'))
+C=A-B
+print(C)
+
+#program to calculate the number you enter with the power of the second number you enter
+d=int(input('enter the first number'))
+e=int(input('enter the second number'))
+f=d**e
+print(f)
