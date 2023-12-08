@@ -1,0 +1,17 @@
+# program to caluculate prime number and print them within a range and calculate their sum
+
+x=int(input(''))
+y=int(input(''))
+sum=0
+
+def check_prime(t):
+    for i in range(2,t):
+        if(t%i==0):
+            return False
+    return True
+
+for t in range(x,y+1):
+    if(check_prime(t)): 
+        print(t)
+        sum=sum+t
+print(sum)
