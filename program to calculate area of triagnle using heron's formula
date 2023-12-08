@@ -1,0 +1,8 @@
+#program to calculate area of triagnle using heron's formula
+
+a=int(input('enter the first side'))
+b=int(input('enter the second side'))
+c=int(input('enter the third side'))
+s=(a+b+c)/2
+area=(s*(s-a)*(s-b)*(s-c))**(1/2)
+print('area of triangle using herons formula is',area)   
