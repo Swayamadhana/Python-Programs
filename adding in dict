@@ -1,0 +1,10 @@
+def display_inf(**dct):
+    data=f'''
+    Name:  {dct.get('name')}
+    Section:  {dct.get('sec')}
+    Roll_No:  {dct.get('rolln')}
+    College:  {dct.get('clg')}'''
+    return data
+
+out=display_inf(name='adad')
+print(out)
