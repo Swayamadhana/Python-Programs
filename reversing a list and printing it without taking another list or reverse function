@@ -1,0 +1,16 @@
+# reversing a list and printing it without taking another list or reverse function
+l=list(map(int,input().split()))
+n=0
+m=len(l)-1
+while n<m:
+    t=l[n] 
+    l[n]=l[m]
+    l[m]=t
+    n=n+1
+    m=m-1
+print(l)
+
+# second meathod
+l=list(map(int,input().split()))
+l.reverse()
+print(l)
