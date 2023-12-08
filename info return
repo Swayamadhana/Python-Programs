@@ -1,0 +1,10 @@
+def default_info(name,rollno,sec="CD",clg="GLA"):
+    data =f'''
+    Name={name}
+    Section={sec}
+    Roll_No={rollno}
+    College={clg} '''
+    return data 
+
+out=default_info('Uday',"CD",'34')
+print(out)
