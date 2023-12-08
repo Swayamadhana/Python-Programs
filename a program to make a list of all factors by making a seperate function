@@ -1,0 +1,11 @@
+# a program to make a list of all factors by making a seperate function 
+
+def factors(f):
+    fac=[]
+    for i in range(1,f):
+        if(f%i==0):
+            fac.append(i)
+    return fac 
+
+out=factors(int(input('')))
+print(out)
